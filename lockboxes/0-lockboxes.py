@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-from copy import deepcopy
-
 """solve lockboxes problem"""
 
 def canUnlockAll(boxes):
-    
+    from copy import deepcopy
     if type(boxes) is not list or len(boxes) < 1:
         return False
     for box in boxes:
